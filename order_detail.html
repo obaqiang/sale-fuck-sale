@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="format-detection" content="telephone=no" />
+		<title>订单详情</title>
+		<link href="css/bootstrap.min.css" rel="stylesheet">
+		<link href="css/order_confirm.css" rel="stylesheet">
+		<link rel="stylesheet" href="css/code128.css" />
+		<script src="js/html5shiv.min.js"></script>
+	</head>
+	<style>
+		html,
+		body {
+			background: #f2f2f2;
+		}
+	</style>
+
+	<body>
+
+		<div class="wait_address">
+			<img class="wait_address_icon" src="img/36px_36px_kuaidi1.png" alt="" />
+			<span class="wait_address_text">请等待发货</span>
+
+			<img class="wait_address_icon" src="img/36px_36px_kuaidi2.png" alt="" />
+			<span class="wait_address_text_1">商家已发货</span>
+
+			<img class="wait_address_icon" src="img/36px_36px_kuaidi3.png" alt="" />
+			<span class="wait_address_text_2">用户已签收</span>
+		</div>
+		<div class="address_show">
+			<img class="address_show_icon" src="img/28px_40px_dizhi.png" alt="" />
+			<span class="address_show_1">您还没有收货地址</span>
+			<span class="address_show_2">道德风尚；立刻解放的；了空间的方式；l科技发达离开家</span>
+			<img class="address_show_go" src="img/18px_30px_buttom.png" alt="" />
+		</div>
+
+		<div class="order_info">
+			<img class="shop_icon" src="img/36px_36px_shangjia.png" alt="" />
+			<span class="shop_name">麦田香草城北路店</span>
+			<div class="order_area">
+				<img class="order_area_img" src="img/750px_620px_chanpintu.png" alt="" />
+				<span class="order_area_head">[麦田香草]双头马克的疯狂浪费的gk看的风口浪尖高峰到来空间</span>
+				<span class="order_area_price">￥29.80</span>
+				<span class="order_area_num">x3</span>
+			</div>
+		</div>
+		<div class="order_info_com">
+			<div class="com_list">
+				<span class="com_list_1">红包</span>
+				<span class="com_list_2">-￥10.00</span>
+			</div>
+			<div class="com_list">
+				<span class="com_list_1">红包</span>
+				<span class="com_list_2">-￥10.00</span>
+			</div>
+		</div>
+		<div class="pay_money">
+			<span class="pay_money_left">实付金额</span>
+			<span class="pay_money_right">￥26.00</span>
+		</div>
+
+
+		<div class="qrcode_area">
+			<div class="qrcode_text_area">
+				<span class="qrcode_text_1">订单编号:</span>
+				<span class="qrcode_text_2">8798 4564 4564</span>
+				<span class="qrcode_text_3">未使用</span>
+			</div>
+			<div class="qrcode" id="qrcode"></div>
+		</div>
+
+
+
+		<div class="order_more_info">
+			<div class="more_info_title">
+				订单信息:
+			</div>
+			<div class="more_info_list">
+				订单编号:45646321847135489413818
+			</div>
+			<div class="more_info_list">
+				付款时间:2017-45-65 18:45:55
+			</div>
+			<div class="more_info_list">
+				支付方式:微信支付
+			</div>
+			<div class="more_info_list">
+				购买数量:3件
+			</div>
+		</div>
+
+		<div class="order_more_info">
+			<div class="more_info_title">
+				商家信息:
+			</div>
+			<div class="more_info_list">
+				商家名称:麦田香草
+			</div>
+			<div class="more_info_list">
+				商家地址:城北路5号
+			</div>
+			<div class="more_info_list">
+				电话:15862671811
+			</div>
+
+		</div>
+		
+
+		<script src="js/jquery-1.11.3.min.js "></script>
+		<script src="js/bootstrap.js "></script>
+		<script src="js/code128.js"></script>
+		<script src="js/qrcode.js"></script>
+		<script>
+			//各个屏幕大小适配
+			(function(doc, win) {
+				var docEl = doc.documentElement,
+					resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize',
+					recalc = function() {
+						var clientWidth = docEl.clientWidth;
+						if(!clientWidth) return;
+						docEl.style.fontSize = 100 * (clientWidth / 375) + 'px';
+					};
+
+				if(!doc.addEventListener) return;
+				win.addEventListener(resizeEvt, recalc, false);
+				doc.addEventListener('DOMContentLoaded', recalc, false);
+			})(document, window);
+		</script>
+
+		<script>
+			var TradeCode = 123154654321651;
+			//			createBarcode('Barcode', TradeCode, 'B');
+			qrcode = new QRCode(document.getElementById("qrcode"), {
+				width: 132, //设置宽高
+				height: 132
+			});
+			qrcode.makeCode(TradeCode);
+		</script>
+
+	</body>
+
+</html>

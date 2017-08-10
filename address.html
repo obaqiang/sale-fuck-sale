@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="format-detection" content="telephone=no" />
+		<title>地址管理</title>
+		<link href="css/bootstrap.min.css" rel="stylesheet">
+		<link href="css/address.css" rel="stylesheet">
+		<script src="js/html5shiv.min.js"></script>
+	</head>
+	<style>
+		html,
+		body {
+			background: #f2f2f2;
+		}
+	</style>
+
+	<body>
+
+		<div class="address_info" style="display: none;">
+			<div class="address_list">
+				<div class="list_head">
+					马老板 130321156585
+				</div>
+				<div class="list_body">
+					我们亲爱的吗来办是个多少分；李开复了d；科技馆l；空间的佛朗哥；空间零点咖啡离开家
+				</div>
+				<div class="list_foot">
+					<div class="list_default">
+						<span class="cho_no"></span>
+						<img class="cho_ok" src="img/32px_32px_V.png" alt="" />
+						<span class="cho_text">默认地址</span>
+					</div>
+					<div class="list_edit">
+						<img src="img/36px_36px_bianji.png" alt="" />
+						<span>编辑</span>
+					</div>
+					<div class="list_delete">
+						<img src="img/36px_36px_shanchu.png" alt="" />
+						<span>删除</span>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="btn_bottom">
+			新建地址
+		</div>
+	
+		<div class="no_address_area">
+			<img src="img/292px_254px_kuaidi.png" alt="" />
+			<span>快递小哥迷路了，填个收货地址吧~</span>
+		</div>
+
+		<script src="js/jquery-1.11.3.min.js "></script>
+		<script src="js/bootstrap.js "></script>
+		<script>
+			//各个屏幕大小适配
+			(function(doc, win) {
+				var docEl = doc.documentElement,
+					resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize',
+					recalc = function() {
+						var clientWidth = docEl.clientWidth;
+						if(!clientWidth) return;
+						docEl.style.fontSize = 100 * (clientWidth / 375) + 'px';
+					};
+
+				if(!doc.addEventListener) return;
+				win.addEventListener(resizeEvt, recalc, false);
+				doc.addEventListener('DOMContentLoaded', recalc, false);
+			})(document, window);
+		</script>
+
+	</body>
+
+</html>

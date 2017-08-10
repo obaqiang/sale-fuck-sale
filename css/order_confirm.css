@@ -1,0 +1,385 @@
+.address_cho {
+	background: #fff;
+	font-size: 0.13rem;
+	line-height: 0.4rem;
+	padding-left: 0.1rem;
+}
+
+.address_cho_show {
+	margin-left: 50%;
+	color: #ff5202;
+}
+
+.address_cho_icon {
+	width: 0.1rem;
+	height: 0.15rem;
+	float: right;
+	margin: 0.13rem 0.1rem;
+}
+
+.order_info {
+	background: #fff;
+	margin-top: 20px;
+	padding-bottom: 0.2rem;
+}
+
+.shop_icon {
+	width: 0.18rem;
+	height: 0.16rem;
+	margin: 0.1rem;
+}
+
+.shop_name {
+	color: #55595B;
+	font-size: 0.12rem;
+}
+
+.order_area {
+	background: #fafafa;
+	padding: 0.1rem 0.2rem;
+	position: relative;
+}
+
+.order_area_img {
+	width: 0.9rem;
+	height: 0.9rem;
+}
+
+.order_area_head {
+	position: absolute;
+	font-size: 0.13rem;
+	line-height: 0.2rem;
+	width: 55%;
+	left: 1.2rem;
+	color: #515558;
+}
+
+.order_area_price {
+	position: absolute;
+	color: #ff5202;
+	font-size: 0.13rem;
+	top: 0.7rem;
+	left: 1.3rem;
+}
+
+.order_area_num {
+	color: #3f4447;
+	font-size: 0.14rem;
+	position: absolute;
+	right: 0.3rem;
+	top: 0.7rem;
+}
+
+.pay_way {
+	margin-top: 0.2rem;
+	background: #fff;
+}
+
+.pay_way_list {
+	position: relative;
+	border-bottom: 1px solid #ddd;
+	line-height: 0.4rem;
+}
+
+.pay_way_list_icon {
+	width: 0.19rem;
+	height: 0.15rem;
+	margin-left: 0.1rem;
+}
+
+.pay_way_list_way {
+	margin-left: 0.1rem;
+	color: #333333;
+	font-size: 0.14rem;
+}
+
+.pay_way_list_show {
+	color: #999999;
+	font-size: 0.14rem;
+	margin-left: 0.2rem;
+}
+
+.pay_way_list_no {
+	display: inline-block;
+	border: 1px solid #d8d8d8;
+	border-radius: 50%;
+	width: 0.15rem;
+	height: 0.15rem;
+	position: absolute;
+	top: 0.15rem;
+	right: 0.2rem;
+}
+
+.pay_way_list_ok {
+	width: 0.15rem;
+	height: 0.15rem;
+	position: absolute;
+	top: 0.15rem;
+	right: 0.2rem;
+}
+
+.pay_way_see {
+	text-align: center;
+	font-size: 0.13rem;
+	line-height: 0.4rem;
+	color: #666666;
+}
+
+.pay_way_see img {
+	width: 0.15rem;
+	height: 0.1rem;
+}
+
+.complex_area {
+	background: #fff;
+	margin-top: 0.2rem;
+	font-size: 0.14rem;
+}
+
+.complex_list {
+	border-bottom: 1px solid #ddd;
+	line-height: 0.4rem;
+}
+
+.complex_list_1 {
+	color: #333333;
+	margin-left: 0.1rem;
+}
+
+.complex_list_2 {
+	color: #999999;
+	margin-left: 0.1rem;
+}
+
+.complex_list_3 {
+	float: right;
+	margin-right: 0.1rem;
+	color: #ff5f17;
+}
+
+.btn_bottom {
+	position: fixed;
+	width: 100%;
+	bottom: 0;
+	background: #fff;
+	line-height: 0.43rem;
+}
+
+.bot_pay {
+	float: right;
+	background: #fe4445;
+	text-align: center;
+	width: 1rem;
+	color: #fff;
+	font-size: 0.15rem;
+}
+
+.bot_info_show {
+	margin-left: 0.6rem;
+	font-size: 0.13rem;
+	color: #3d4244;
+}
+
+.bot_price_show {
+	color: #ff5202;
+	font-size: 0.2rem;
+}
+
+.address_show {
+	position: relative;
+	height: 0.8rem;
+	background: #fff;
+	margin-top: 0.1rem;
+}
+
+.address_show_icon {
+	width: 0.14rem;
+	height: 0.2rem;
+	position: absolute;
+	top: 0.3rem;
+	left: 0.2rem;
+}
+
+.address_show_1 {
+	position: absolute;
+	font-size: 0.13rem;
+	color: #333333;
+	top: 0.2rem;
+	left: 0.5rem;
+}
+
+.address_show_2 {
+	position: absolute;
+	font-size: 0.13rem;
+	color: #686868;
+	top: 0.4rem;
+	left: 0.5rem;
+	width: 2.5rem;
+}
+
+.address_show_go {
+	position: absolute;
+	width: 0.09rem;
+	height: 0.15rem;
+	right: 0.1rem;
+	top: 0.4rem;
+}
+
+.address_way_modal {
+	position: fixed;
+	width: 100%;
+	bottom: 0;
+	z-index: 2;
+	background: #fff;
+}
+
+.address_way_modal_head {
+	text-align: center;
+	color: #0e2430;
+	font-size: 0.16rem;
+	line-height: 0.4rem;
+	border-bottom: 1px solid #ddd;
+}
+
+.modal_mask {
+	position: fixed;
+	height: 100%;
+	width: 100%;
+	top: 0;
+	background: #000000;
+	opacity: 0.2;
+}
+
+.to_shop {
+	line-height: 0.4rem;
+	position: relative;
+	border-bottom: 1px solid #ddd;
+}
+
+.cho_see {
+	color: #0e2430;
+	font-size: 0.13rem;
+	margin-left: 0.1rem;
+}
+
+.cho_no {
+	width: 0.2rem;
+	height: 0.2rem;
+	border-radius: 50%;
+	border: 1px solid #d8d8d8;
+	position: absolute;
+	right: 0.1rem;
+	top: 0.1rem;
+}
+
+.cho_ok {
+	position: absolute;
+	top: 0.1rem;
+	right: 0.1rem;
+	width: 0.2rem;
+	height: 0.2rem;
+}
+
+.wait_address {
+	background: #fff;
+	font-size: 0.12rem;
+	line-height: 0.45rem;
+}
+
+.wait_address_icon {
+	width: 0.18rem;
+	height: 0.16rem;
+	margin-left: 0.1rem;
+}
+
+.wait_address_text {
+	margin-left: 0.1rem;
+	color: #FF5202;
+}
+
+.wait_address_text_1 {
+	margin-left: 0.1rem;
+	color: #359a2b;
+}
+
+.wait_address_text_2 {
+	margin-left: 0.1rem;
+	color: #686868;
+}
+
+.order_info_com {
+	background: #fff;
+	border-bottom: 1px solid #ddd;
+}
+
+.com_list {
+	font-size: 0.12rem;
+	line-height: 0.3rem;
+	padding-left: 0.1rem;
+	padding-right: 0.1rem;
+	color: #999999;
+}
+
+.com_list_2 {
+	float: right;
+}
+
+.pay_money {
+	background: #fff;
+	font-size: 0.13rem;
+	line-height: 0.4rem;
+}
+
+.pay_money_left {
+	margin-left: 0.1rem;
+}
+
+.pay_money_right {
+	float: right;
+	margin-right: 0.1rem;
+}
+
+.order_more_info {
+	background: #fff;
+	margin-top: 0.2rem;
+	padding-bottom: 0.1rem;
+}
+
+.more_info_title {
+	font-size: 0.13rem;
+	color: #232326;
+	padding-left: 0.2rem;
+	padding-top: 0.1rem;
+}
+
+.more_info_list {
+	font-size: 0.12rem;
+	color: #81838E;
+	padding-left: 0.3rem;
+	padding-top: 0.05rem;
+}
+
+.qrcode_area {
+	background: #fff;
+}
+
+.qrcode_text_area {
+	margin-top: 0.2rem;
+	font-size: 0.15rem;
+	line-height: 0.5rem;
+}
+
+.qrcode_text_1 {
+	color: #999999;
+	margin-left: 0.1rem;
+}
+
+.qrcode_text_2 {
+	color: #3b3b3b;
+}
+
+.qrcode_text_3 {
+	color: #6bbd00;
+	float: right;
+	margin-right: 0.1rem;
+}

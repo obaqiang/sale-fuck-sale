@@ -1,0 +1,96 @@
+.address_list {
+	background: #fff;
+	margin: 0.2rem auto;
+	width: 95%;
+	border-radius: 0.1rem;
+}
+
+.list_head {
+	font-size: 0.15rem;
+	line-height: 0.2rem;
+	padding-left: 0.1rem;
+	padding-top: 0.2rem;
+}
+
+.list_body {
+	font-size: 0.12rem;
+	line-height: 0.2rem;
+	padding-left: 0.1rem;
+	padding-top: 0.1rem;
+	padding-bottom: 0.1rem;
+	border-bottom: 1px solid #ddd;
+	color: #686868;
+}
+.list_default{
+	position: relative;
+	font-size: 0.13rem;
+	line-height: 0.4rem;
+}
+.cho_no{
+	position: absolute;
+	width: 0.16rem;
+	height: 0.16rem;
+	border: 1px solid #d8d8d8;
+	border-radius: 50%;
+	left: 0.1rem;
+	top: 0.1rem;
+}
+.cho_ok{
+	position: absolute;
+	width: 0.16rem;
+	height: 0.16rem;
+	left: 0.1rem;
+	top: 0.1rem;
+}
+.cho_text{
+	position: absolute;
+	left: 0.4rem;
+	color: #686868;
+}
+.list_edit{
+	position: relative;
+	left: 2.3rem;
+	font-size: 0.13rem;
+	line-height: 0.4rem;
+	display: inline-block;
+	color: #848689;
+}
+.list_edit img{
+	width: 0.14rem;
+	height: 0.14rem;
+}
+.list_delete{
+	position: relative;
+	left: 2.5rem;
+	font-size: 0.13rem;
+	line-height: 0.4rem;
+	display: inline-block;
+	color: #848689;
+}
+.list_delete img{
+	width: 0.14rem;
+	height: 0.14rem;
+}
+.btn_bottom{
+	background: #FF4444;
+	color: #fff;
+	font-size: 0.14rem;
+	text-align: center;
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	line-height: 0.44rem;
+}
+.no_address_area{
+	text-align: center;
+}
+.no_address_area img{
+	display: block;
+	margin: 1.5rem auto 0.5rem;
+	width: 50%;
+}
+.no_address_area span{
+	font-size: 0.16rem;
+	color: #9e9d9d;
+	
+}

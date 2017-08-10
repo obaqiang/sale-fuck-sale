@@ -8,7 +8,7 @@
 		<meta name="format-detection" content="telephone=no" />
 		<title>折上折</title>
 		<link href="css/bootstrap.min.css" rel="stylesheet">
-		<link href="css/index.css" rel="stylesheet">
+		<link href="css/action_detail.css" rel="stylesheet">
 		<script src="js/html5shiv.min.js"></script>
 	</head>
 	<style>
@@ -75,7 +75,7 @@
 			</div>
 
 			<div class="row">
-				<div class="col-xs-12 bg_ff rule_area">
+				<div class="col-xs-12 bg_ff rule_area" onclick="showModal()">
 					<span class="rule_left">活动规则</span>
 					<img class="rule_right" src="img/18px_30px_buttom.png" alt="" />
 				</div>
@@ -105,18 +105,20 @@
 		<div class="btn_bottom">
 			我要下单
 		</div>
-		
-		<div class="modal_show">
+
+		<div class="modal_show" style="display: none;">
 			<div class="modal_show_title">
 				<span>活动规则</span>
-				<img src="img/18px_30px_buttom.png" alt="" />
+				<img onclick="hideModal()" src="img/18px_30px_buttom.png" alt="" />
 			</div>
 			<div class="modal_show_body">
-				活动啊付款就是懒得看见过； 离开戒毒所；赶快来金士顿；镂空结构的身份管理会计
-				
+				活动啊付款就是懒得看见过； 离开戒毒所；赶快来金士顿；镂空结构的身份管理会计 附件是的看法离开地方几个fjk；两个大；了科技帝国；但是风口浪尖；三菱电机的快乐就是；快乐圣诞节； 空间
+			</div>
+			<div class="modal_foot">
+				完成
 			</div>
 		</div>
-		<div class="modal_mask"></div>
+		<div class="modal_mask" onclick="hideModal()" style="display: none;"></div>
 
 		<script src="js/jquery-1.11.3.min.js "></script>
 		<script src="js/bootstrap.js "></script>
@@ -136,7 +138,16 @@
 				doc.addEventListener('DOMContentLoaded', recalc, false);
 			})(document, window);
 		</script>
-
+		<script>
+			function showModal() {
+				$('.modal_show').show()
+				$('.modal_mask').show()
+			}
+			function hideModal(){
+				$('.modal_show').hide()
+				$('.modal_mask').hide()
+			}
+		</script>
 	</body>
 
 </html>
